@@ -1,6 +1,7 @@
 {
   "palettes": {
     "themeOne": {
+      "name": "Peachy Delight",
       "primaryColor": {
         "name": "Fountain Blue",
         "hex": "#61C0BF",
@@ -24,6 +25,7 @@
       "tags": ["peach", "teal", "wedding", "pastel", "kids", "light"]
     },
     "themeTwo": {
+      "name": "Warm Latte",
       "primaryColor": {
         "name": "Ferra",
         "hex": "#6F4C5B",
@@ -47,6 +49,7 @@
       "tags": ["beige", "yellow", "brown", "cream", "coffee", "food", "warm", "vintage", "skin", "pastel", "fall"]
     },
     "themeThree": {
+      "name": "Vintage Serenity",
       "primaryColor": {
         "name": "Regent St Blue",
         "hex": "#A6D0E4",
@@ -70,6 +73,7 @@
       "tags": ["beige", "peach", "blue", "summer", "light", "happy", "vintage", "skin", "pastel"]
     },
     "themeFour": {
+      "name": "Autumn Harvest",
       "primaryColor": {
         "name": "Envy",
         "hex": "#85A389",
@@ -93,6 +97,7 @@
       "tags": ["orange", "sage", "earth", "fall", "food", "vintage", "pastel"]
     },
     "themeFive": {
+      "name": "Midnight Bliss",
       "primaryColor": {
         "name": "Zinnwaldite",
         "hex": "#EAB2A0",
@@ -116,6 +121,7 @@
       "tags": ["navy", "peach", "halloween", "dark", "night", "vintage"]
     },
     "themeSix": {
+      "name": "Retro Elegance",
       "primaryColor": {
         "name": "Prussian Blue",
         "hex": "#002B5B",
@@ -139,6 +145,7 @@
       "tags": ["navy", "beige", "grey", "red", "wedding", "vintage", "retro"]
     },
     "themeSeven": {
+      "name": "Midnight Shadows",
       "primaryColor": {
         "name": "Merino",
         "hex": "#F4EEE0",
@@ -162,6 +169,7 @@
       "tags": ["black", "beige", "grey", "night", "dark"]
     },
     "themeEight": {
+      "name": "Nightfall Noir",
       "primaryColor": {
         "name": "Tussock",
         "hex": "#C69749",
@@ -185,6 +193,7 @@
       "tags": ["black", "beige", "brown", "night", "dark"]
     },
     "themeNine": {
+      "name": "Sweet Gradient",
       "primaryColor": {
         "name": "Bittersweet",
         "hex": "#FF6666",
@@ -208,6 +217,7 @@
       "tags": ["peach", "red", "warm", "kids", "food", "gradient"]
     },
     "themeTen": {
+      "name": "Sunset Dreams",
       "primaryColor": {
         "name": "Lilac Bush",
         "hex": "#9384D1",
@@ -231,6 +241,7 @@
       "tags": ["beige", "purple", "sunset", "kids"]
     },
     "themeEleven": {
+      "name": "Retro Coffee Sunset",
       "primaryColor": {
         "name": "Cannon Pink",
         "hex": "#874356",
@@ -254,6 +265,7 @@
       "tags": ["beige", "red", "pink", "maroon", "skin", "retro", "coffee", "sunset", "warm", "gradient"]
     },
     "themeTwelve": {
+      "name": "Happy Summer Sky",
       "primaryColor": {
         "name": "Mimosa",
         "hex": "#F8FDCF",
@@ -277,6 +289,7 @@
       "tags": ["blue", "mint", "sage", "green", "yellow", "gradient", "light", "happy", "summer", "sky"]
     },
     "themeThirteen": {
+      "name": "Minty Sea Breeze",
       "primaryColor": {
         "name": "Colonial White",
         "hex": "#FFEEBB",
@@ -300,6 +313,7 @@
       "tags": ["blue", "mint", "yellow", "sea", "light", "kids", "summer", "sky"]
     },
     "themeFourteen": {
+      "name": "Kids' Sky Adventure",
       "primaryColor": {
         "name": "Matisse",
         "hex": "#146C94",
@@ -323,6 +337,7 @@
       "tags": ["blue", "navy", "yellow", "kids", "sky"]
     },
     "themeFifteen": {
+      "name": "Winter Frost",
       "primaryColor": {
         "name": "Shadow Green",
         "hex": "#8EC3B0",
@@ -346,6 +361,7 @@
       "tags": ["mint", "teal", "cream", "cold", "sky", "light", "winter"]
     },
     "themeSixteen": {
+      "name": "Vintage Blush",
       "primaryColor": {
         "name": "Pippin",
         "hex": "#FFE3E3",
@@ -369,6 +385,7 @@
       "tags": ["blue", "grey", "pink", "cold", "sky", "light", "vintage", "cream", "wedding"]
     },
     "themeSeventeen": {
+      "name": "Cold Winter Sky",
       "primaryColor": {
         "name": "Blue Bayoux",
         "hex": "#456268",
