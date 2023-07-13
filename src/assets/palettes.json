@@ -21,7 +21,7 @@
         "hex": "#FFB6B9",
         "rgb": "rgb(255, 182, 185)"
       },
-      "description": ["peach", "teal", "wedding", "pastel", "kids", "light"]
+      "tags": ["peach", "teal", "wedding", "pastel", "kids", "light"]
     },
     "themeTwo": {
       "primaryColor": {
@@ -44,7 +44,7 @@
         "hex": "#F5E8C7",
         "rgb": "rgb(245, 232, 199)"
       },
-      "description": ["beige", "yellow", "brown", "cream", "coffee", "food", "warm", "vintage", "skin", "pastel", "fall"]
+      "tags": ["beige", "yellow", "brown", "cream", "coffee", "food", "warm", "vintage", "skin", "pastel", "fall"]
     },
     "themeThree": {
       "primaryColor": {
@@ -67,30 +67,351 @@
         "hex": "#D4A5A5",
         "rgb": "rgb(212, 165, 165)"
       },
-      "description": ["beige", "peach", "blue", "summer", "light", "happy", "vintage", "skin", "pastel"]
+      "tags": ["beige", "peach", "blue", "summer", "light", "happy", "vintage", "skin", "pastel"]
     },
     "themeFour": {
       "primaryColor": {
-        "name": "Regent St Blue",
+        "name": "Envy",
         "hex": "#85A389",
         "rgb": "rgb(133, 163, 137)"
       },
       "secondaryColor": {
-        "name": "China Ivory",
+        "name": "Spring Rain",
         "hex": "#A2CDB0",
         "rgb": "rgb(162, 205, 176)"
       },
       "tertiaryColor": {
-        "name": "Derby",
+        "name": "Peach Orange",
         "hex": "#FFD89C",
         "rgb": "rgb(255, 216, 156)"
       },
       "highlightsColor": {
-        "name": "Eunry",
+        "name": "Tacao",
         "hex": "#F1C27B",
         "rgb": "rgb(241, 194, 123)"
       },
-      "description": ["beige", "peach", "blue", "summer", "light", "happy", "vintage", "skin", "pastel"]
+      "tags": ["orange", "sage", "earth", "fall", "food", "vintage", "pastel"]
+    },
+    "themeFive": {
+      "primaryColor": {
+        "name": "Zinnwaldite",
+        "hex": "#EAB2A0",
+        "rgb": "rgb(234, 178, 160)"
+      },
+      "secondaryColor": {
+        "name": "Coral Tree",
+        "hex": "#A76F6F",
+        "rgb": "rgb(167, 111, 111)"
+      },
+      "tertiaryColor": {
+        "name": "Fiord",
+        "hex": "#435B66",
+        "rgb": "rgb(67, 91, 102)"
+      },
+      "highlightsColor": {
+        "name": "Pickled Bluewood",
+        "hex": "#2D4356",
+        "rgb": "rgb(45, 67, 86)"
+      },
+      "tags": ["navy", "peach", "halloween", "dark", "night", "vintage"]
+    },
+    "themeSix": {
+      "primaryColor": {
+        "name": "Prussian Blue",
+        "hex": "#002B5B",
+        "rgb": "rgb(0, 43, 91)"
+      },
+      "secondaryColor": {
+        "name": "Mandy",
+        "hex": "#EA5455",
+        "rgb": "rgb(234, 84, 85)"
+      },
+      "tertiaryColor": {
+        "name": "Pearl Bush",
+        "hex": "#E4DCCF",
+        "rgb": "rgb(228, 220, 207)"
+      },
+      "highlightsColor": {
+        "name": "White Linen",
+        "hex": "#F9F5EB",
+        "rgb": "rgb(249, 245, 235)"
+      },
+      "tags": ["navy", "beige", "grey", "red", "wedding", "vintage", "retro"]
+    },
+    "themeSeven": {
+      "primaryColor": {
+        "name": "Merino",
+        "hex": "#F4EEE0",
+        "rgb": "rgb(244, 238, 224)"
+      },
+      "secondaryColor": {
+        "name": "Salt Box",
+        "hex": "#6D5D6E",
+        "rgb": "rgb(109, 93, 110)"
+      },
+      "tertiaryColor": {
+        "name": "Mortar",
+        "hex": "#4F4557",
+        "rgb": "rgb(79, 69, 87)"
+      },
+      "highlightsColor": {
+        "name": "Tuna",
+        "hex": "#393646",
+        "rgb": "rgb(57, 54, 70)"
+      },
+      "tags": ["black", "beige", "grey", "night", "dark"]
+    },
+    "themeEight": {
+      "primaryColor": {
+        "name": "Tussock",
+        "hex": "#C69749",
+        "rgb": "rgb(198, 151, 73)"
+      },
+      "secondaryColor": {
+        "name": "Yellow Metal",
+        "hex": "#735F32",
+        "rgb": "rgb(115, 95, 50)"
+      },
+      "tertiaryColor": {
+        "name": "Ebony Clay",
+        "hex": "#282A3A",
+        "rgb": "rgb(40, 42, 58)"
+      },
+      "highlightsColor": {
+        "name": "Black",
+        "hex": "#000000",
+        "rgb": "rgb(0, 0, 0)"
+      },
+      "tags": ["black", "beige", "brown", "night", "dark"]
+    },
+    "themeNine": {
+      "primaryColor": {
+        "name": "Bittersweet",
+        "hex": "#FF6666",
+        "rgb": "rgb(255, 102, 102)"
+      },
+      "secondaryColor": {
+        "name": "Vivid Tangerine",
+        "hex": "#FF8989",
+        "rgb": "rgb(255, 137, 137)"
+      },
+      "tertiaryColor": {
+        "name": "Rosebud",
+        "hex": "#FCAEAE",
+        "rgb": "rgb(252, 174, 174)"
+      },
+      "highlightsColor": {
+        "name": "Derby",
+        "hex": "#FFEADD",
+        "rgb": "rgb(255, 234, 221)"
+      },
+      "tags": ["peach", "red", "warm", "kids", "food", "gradient"]
+    },
+    "themeTen": {
+      "primaryColor": {
+        "name": "Lilac Bush",
+        "hex": "#9384D1",
+        "rgb": "rgb(147, 132, 209)"
+      },
+      "secondaryColor": {
+        "name": "Biloba Flower",
+        "hex": "#C9A7EB",
+        "rgb": "rgb(201, 167, 235)"
+      },
+      "tertiaryColor": {
+        "name": "French Lilac",
+        "hex": "#ECC9EE",
+        "rgb": "rgb(236, 201, 238)"
+      },
+      "highlightsColor": {
+        "name": "Frangipani",
+        "hex": "#FFDCB6",
+        "rgb": "rgb(255, 220, 182)"
+      },
+      "tags": ["beige", "purple", "sunset", "kids"]
+    },
+    "themeEleven": {
+      "primaryColor": {
+        "name": "Cannon Pink",
+        "hex": "#874356",
+        "rgb": "rgb(135, 67, 86)"
+      },
+      "secondaryColor": {
+        "name": "Mulberry",
+        "hex": "#C65D7B",
+        "rgb": "rgb(198, 93, 123)"
+      },
+      "tertiaryColor": {
+        "name": "Froly",
+        "hex": "#F68989",
+        "rgb": "rgb(246, 137, 137)"
+      },
+      "highlightsColor": {
+        "name": "Albescent White",
+        "hex": "#F6E7D8",
+        "rgb": "rgb(246, 231, 216)"
+      },
+      "tags": ["beige", "red", "pink", "maroon", "skin", "retro", "coffee", "sunset", "warm", "gradient"]
+    },
+    "themeTwelve": {
+      "primaryColor": {
+        "name": "Mimosa",
+        "hex": "#F8FDCF",
+        "rgb": "rgb(248, 253, 207)"
+      },
+      "secondaryColor": {
+        "name": "Tusk",
+        "hex": "#E2F6CA",
+        "rgb": "rgb(226, 246, 202)"
+      },
+      "tertiaryColor": {
+        "name": "Water Leaf",
+        "hex": "#9BE8D8",
+        "rgb": "rgb(155, 232, 216)"
+      },
+      "highlightsColor": {
+        "name": "Malibu",
+        "hex": "#78C1F3",
+        "rgb": "rgb(120, 193, 243)"
+      },
+      "tags": ["blue", "mint", "sage", "green", "yellow", "gradient", "light", "happy", "summer", "sky"]
+    },
+    "themeThirteen": {
+      "primaryColor": {
+        "name": "Colonial White",
+        "hex": "#FFEEBB",
+        "rgb": "rgb(255, 238, 187)"
+      },
+      "secondaryColor": {
+        "name": "Blizzard Blue",
+        "hex": "#A7ECEE",
+        "rgb": "rgb(167, 236, 238)"
+      },
+      "tertiaryColor": {
+        "name": "Sail",
+        "hex": "#99DBF5",
+        "rgb": "rgb(153, 219, 245)"
+      },
+      "highlightsColor": {
+        "name": "Jordy Blue",
+        "hex": "#9AC5F4",
+        "rgb": "rgb(154, 197, 244)"
+      },
+      "tags": ["blue", "mint", "yellow", "sea", "light", "kids", "summer", "sky"]
+    },
+    "themeFourteen": {
+      "primaryColor": {
+        "name": "Matisse",
+        "hex": "#146C94",
+        "rgb": "rgb(20, 108, 148)"
+      },
+      "secondaryColor": {
+        "name": "Curious Blue",
+        "hex": "#19A7CE",
+        "rgb": "rgb(25, 167, 206)"
+      },
+      "tertiaryColor": {
+        "name": "Anakiwa",
+        "hex": "#B0DAFF",
+        "rgb": "rgb(176, 218, 255)"
+      },
+      "highlightsColor": {
+        "name": "Dolly",
+        "hex": "#FEFF86",
+        "rgb": "rgb(254, 255, 134)"
+      },
+      "tags": ["blue", "navy", "yellow", "kids", "sky"]
+    },
+    "themeFifteen": {
+      "primaryColor": {
+        "name": "Shadow Green",
+        "hex": "#8EC3B0",
+        "rgb": "rgb(142, 195, 176)"
+      },
+      "secondaryColor": {
+        "name": "Sinbad",
+        "hex": "#9ED5C5",
+        "rgb": "rgb(158, 213, 197)"
+      },
+      "tertiaryColor": {
+        "name": "Padua",
+        "hex": "#BCEAD5",
+        "rgb": "rgb(188, 234, 213)"
+      },
+      "highlightsColor": {
+        "name": "Tara",
+        "hex": "#DEF5E5",
+        "rgb": "rgb(222, 245, 229)"
+      },
+      "tags": ["mint", "teal", "cream", "cold", "sky", "light", "winter"]
+    },
+    "themeSixteen": {
+      "primaryColor": {
+        "name": "Pippin",
+        "hex": "#FFE3E3",
+        "rgb": "rgb(255, 227, 227)"
+      },
+      "secondaryColor": {
+        "name": "Lola",
+        "hex": "#E4D8DC",
+        "rgb": "rgb(228, 216, 220)"
+      },
+      "tertiaryColor": {
+        "name": "Ghost",
+        "hex": "#C9CCD5",
+        "rgb": "rgb(201, 204, 213)"
+      },
+      "highlightsColor": {
+        "name": "Nepal",
+        "hex": "#93B5C6",
+        "rgb": "rgb(147, 181, 198)"
+      },
+      "tags": ["blue", "grey", "pink", "cold", "sky", "light", "vintage", "cream", "wedding"]
+    },
+    "themeSeventeen": {
+      "primaryColor": {
+        "name": "Blue Bayoux",
+        "hex": "#456268",
+        "rgb": "rgb(69, 98, 104)"
+      },
+      "secondaryColor": {
+        "name": "Bali Hai",
+        "hex": "#79A3B1",
+        "rgb": "rgb(121, 163, 177)"
+      },
+      "tertiaryColor": {
+        "name": "Link Water",
+        "hex": "#D0E8F2",
+        "rgb": "rgb(208, 232, 242)"
+      },
+      "highlightsColor": {
+        "name": "Linen",
+        "hex": "#FCF8EC",
+        "rgb": "rgb(252, 248, 236)"
+      },
+      "tags": ["blue", "beige", "navy", "cold", "sky", "light", "winter"]
+    },
+    "cardColors": {
+      "success": {
+        "name": "Morning Glory",
+        "hex": "#95E1D3",
+        "rgb": "rgb(149, 225, 211)"
+      },
+      "information": {
+        "name": "Snow Flurry",
+        "hex": "#EAFFD0",
+        "rgb": "rgb(234, 255, 208)"
+      },
+      "warning": {
+        "name": "Sweet Corn",
+        "hex": "#FCE38A",
+        "rgb": "rgb(252, 227, 138)"
+      },
+      "error": {
+        "name": "Froly",
+        "hex": "#F38181",
+        "rgb": "rgb(252, 227, 138)"
+      }
     }
   }
 }
