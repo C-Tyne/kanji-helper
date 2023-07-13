@@ -1,0 +1,96 @@
+{
+  "palettes": {
+    "themeOne": {
+      "primaryColor": {
+        "name": "Fountain Blue",
+        "hex": "#61C0BF",
+        "rgb": "rgb(97, 192, 191)"
+      },
+      "secondaryColor": {
+        "name": "Edgewater",
+        "hex": "#BBDED6",
+        "rgb": "rgb(187, 222, 214)"
+      },
+      "tertiaryColor": {
+        "name": "Champagne",
+        "hex": "#FAE3D9",
+        "rgb": "rgb(250, 227, 217)"
+      },
+      "highlightsColor": {
+        "name": "Sundown",
+        "hex": "#FFB6B9",
+        "rgb": "rgb(255, 182, 185)"
+      },
+      "description": ["peach", "teal", "wedding", "pastel", "kids", "light"]
+    },
+    "themeTwo": {
+      "primaryColor": {
+        "name": "Ferra",
+        "hex": "#6F4C5B",
+        "rgb": "rgb(111, 76, 91)"
+      },
+      "secondaryColor": {
+        "name": "Bazaar",
+        "hex": "#9E7777",
+        "rgb": "rgb(158, 119, 119)"
+      },
+      "tertiaryColor": {
+        "name": "Brandy",
+        "hex": "#DEBA9D",
+        "rgb": "rgb(222, 186, 157)"
+      },
+      "highlightsColor": {
+        "name": "Sidecar",
+        "hex": "#F5E8C7",
+        "rgb": "rgb(245, 232, 199)"
+      },
+      "description": ["beige", "yellow", "brown", "cream", "coffee", "food", "warm", "vintage", "skin", "pastel", "fall"]
+    },
+    "themeThree": {
+      "primaryColor": {
+        "name": "Regent St Blue",
+        "hex": "#A6D0E4",
+        "rgb": "rgb(166, 208, 228)"
+      },
+      "secondaryColor": {
+        "name": "China Ivory",
+        "hex": "#F9FFEA",
+        "rgb": "rgb(249, 255, 234)"
+      },
+      "tertiaryColor": {
+        "name": "Derby",
+        "hex": "#FFECDA",
+        "rgb": "rgb(255, 236, 218)"
+      },
+      "highlightsColor": {
+        "name": "Eunry",
+        "hex": "#D4A5A5",
+        "rgb": "rgb(212, 165, 165)"
+      },
+      "description": ["beige", "peach", "blue", "summer", "light", "happy", "vintage", "skin", "pastel"]
+    },
+    "themeFour": {
+      "primaryColor": {
+        "name": "Regent St Blue",
+        "hex": "#85A389",
+        "rgb": "rgb(133, 163, 137)"
+      },
+      "secondaryColor": {
+        "name": "China Ivory",
+        "hex": "#A2CDB0",
+        "rgb": "rgb(162, 205, 176)"
+      },
+      "tertiaryColor": {
+        "name": "Derby",
+        "hex": "#FFD89C",
+        "rgb": "rgb(255, 216, 156)"
+      },
+      "highlightsColor": {
+        "name": "Eunry",
+        "hex": "#F1C27B",
+        "rgb": "rgb(241, 194, 123)"
+      },
+      "description": ["beige", "peach", "blue", "summer", "light", "happy", "vintage", "skin", "pastel"]
+    }
+  }
+}
