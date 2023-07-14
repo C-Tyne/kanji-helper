@@ -1,0 +1,234 @@
+/* Flashcard Styling */
+
+.flashcard {
+  background-color: transparent;
+
+  width: 30vw;
+  height: 40vh;
+}
+
+/* Face Styling */
+
+.face {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgb(97, 192, 191);
+  color: #FAE3D9;
+
+  justify-content: center;
+  align-items: center;
+  max-height: 100%;
+
+  margin: 0;
+}
+
+.face-kanji {
+  font-size: 10rem;
+  margin: 0;
+  user-select: none;
+}
+
+.face:hover {
+  cursor: pointer;
+  background-color: rgb(90, 171, 169);
+}
+
+/* Details Styling */
+
+.details {
+  background-color: rgb(255, 182, 185);
+
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 5px;
+
+  padding: 10px;
+}
+
+.details:hover {
+  cursor: pointer;
+}
+
+/* Stroke Styling */
+
+.stroke-container {
+  background-color: #FAE3D9;
+  
+  grid-column: 1 / 5;
+  grid-row: 1 / 5;
+
+  text-align: center;
+}
+
+.stroke-gif {
+  width: 100%;
+  height: 75%;
+}
+
+.stroke-text {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+/* On/Kun Styling */
+
+.on-kun-container {
+  grid-column: 5 / 12;
+  grid-row: 1 / 2;
+
+  display: flex;
+  align-items: center;
+}
+
+.on-kun-text {
+  font-size: 1.5rem;
+  margin: 0;
+  margin-left: 10px;
+}
+
+/* JLPT Styling */
+
+.jlpt-container {
+  background-color: #BBDED6;
+
+  grid-column: 12 / 13;
+  grid-row: 1 / 2;
+
+  display: flex;
+  align-items: center;
+
+  padding: 5px 10px;
+}
+
+.jlpt-text {
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin: 0;
+}
+
+/* English Translation Styling */
+
+.eng-container {
+  grid-column: 5 / 13;
+  grid-row: 2 / 4;
+
+  display: flex;
+  align-items: center;
+}
+
+.eng-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+  margin-left: 10px;
+}
+
+/* Usage Styling */
+
+.use-container, .rad-container {
+  background-color: #FAE3D9;
+  grid-row: 4 / 5;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.use-container {
+  grid-column: 5 / 8;
+}
+
+.rad-container {
+  grid-column: 8 / 13;
+}
+
+.use-text-container, .rad-text-container {
+  width: 100%;
+  padding-left: 5px;
+}
+
+.use-text-label, .rad-text-label {
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+.use-text-desc, .rad-text-desc {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+/* Mnemonic Styling */
+
+.mnem-container {
+  background-color: #61C0BF;
+
+  grid-row: 5 / 7;
+  grid-column: 1 / 13;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.mnem-text-label {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+
+  padding-left: 5px;
+  font-size: 0.9rem;
+}
+
+.mnem-text-container {
+  grid-column: 1 / 5;
+  grid-row: 1 / 7;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mnem-text {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.mnem-text > a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Animations Styling */
+
+.flashcard {
+  perspective: 1000px;
+}
+
+.flashcard-inner {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip .flashcard-inner {
+  transform: rotateY(180deg);
+}
+
+.face, .details {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.details {
+  transform: rotateY(180deg);
+}
