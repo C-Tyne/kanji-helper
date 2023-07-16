@@ -1,24 +1,24 @@
-<div class="flashcard" (click)="handleCardClick()" [class.flip]="isFlipped">
+<div class="flashcard" [class.flip]="isFlipped">
   <div class="flashcard-inner">
-    <div class="face">
-      <h1 class="kana face-kanji">右</h1>
+    <div class="face" (click)="handleCardClick()">
+      <h1 class="kana face-kanji">{{cardDetails?.kanji}}</h1>
     </div>
     <div class="details">
-      <div class="stroke-container">
-        <img src="../../../assets/images/kanji-stroke/N5-74.gif" class="stroke-gif" >
-        <p class="stroke-text">Stroke Count: 5</p>
+      <div class="kanji-container">
+        <h1 class="kana kanji-text" (click)="handleCardClick()">{{cardDetails?.kanji}}</h1>
+        <p class="stroke-text">Stroke Count: {{cardDetails?.strokes}}</p>
       </div>
 
       <div class="on-kun-container">
-        <p class="kana on-kun-text">ウ・ユウ・みぎ</p>
+        <p class="kana on-kun-text">{{cardDetails?.onKun}}</p>
       </div>
 
       <div class="jlpt-container">
-        <p class="jlpt-text">N5</p>
+        <p class="jlpt-text">{{cardDetails?.jlpt}}</p>
       </div>
 
       <div class="eng-container">
-        <p class="eng-text">right (direction)</p>
+        <p class="eng-text">{{cardDetails?.translation}}</p>
       </div>
 
       <div class="use-container">
@@ -26,7 +26,7 @@
           <p class="use-text-label">Usage:</p>
         </div>
         <div class="use-text-container">
-          <p class="use-text-desc">Very common</p>
+          <p class="use-text-desc">{{cardDetails?.usage}}</p>
         </div>
       </div>
 
@@ -35,7 +35,7 @@
           <p class="rad-text-label">Radicals:</p>
         </div>
         <div class="rad-text-container">
-          <p class="rad-text-desc">十・口</p>
+          <p class="rad-text-desc">{{ cardDetails?.radicals?.join('・') }}</p>
         </div>
       </div>
 
@@ -43,7 +43,7 @@
         <div class="mnem-text-label">Mnemonic:</div>
         <div class="mnem-text-container">
           <p class="mnem-text">
-            "<span class="mnem-key">right</span> hand on the <a class="rad-key">mouth</a>"
+            "{{cardDetails?.mnemonic}}"
           </p>
         </div>
       </div>

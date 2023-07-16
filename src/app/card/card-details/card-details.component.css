@@ -53,13 +53,9 @@
   padding: 10px;
 }
 
-.details:hover {
-  cursor: pointer;
-}
-
 /* Stroke Styling */
 
-.stroke-container {
+.kanji-container {
   background-color: #FAE3D9;
   
   grid-column: 1 / 5;
@@ -68,9 +64,13 @@
   text-align: center;
 }
 
-.stroke-gif {
-  width: 100%;
-  height: 75%;
+.kanji-text {
+  font-size: 7rem;
+}
+
+.kanji-container:hover {
+  cursor: pointer;
+  background-color: rgb(238, 216, 207);
 }
 
 .stroke-text {
